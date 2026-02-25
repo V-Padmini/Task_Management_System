@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="app-wrapper">
+        <div class="todo-container">
+<div class="todo-container">
+<h1 class="app-title">Todo List Dashboard</h1>
+  
+    <p id="task-counter">You have 0 task(s) to complete</p>
+
+    <div class="add-todo">
+        <input type="text" id="todo-input" placeholder="Enter a new task">
+        <button id="add-btn">Add</button>
+    </div>
+
+    <select id="filter-dropdown">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="pending">Pending</option>
+    </select>
+
+       <div id="todo-list" class="task-container"></div>
+</div>
+</div>
+ </div>
+<script src="js/model.js"></script>
+<script src="js/view.js"></script>
+<script src="js/controller.js"></script>
+
+</body>
+</html>
