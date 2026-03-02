@@ -23,8 +23,7 @@ body {
     background: #ffffff;
     border-radius: 20px;
     padding: 36px;
-    box-shadow:
-        0 20px 45px rgba(0, 0, 0, 0.15);
+    box-shadow:0 20px 45px rgba(0, 0, 0, 0.15);
 }
 
 .app-title {
@@ -111,7 +110,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-left: 6px solid #4f46e5; /* BIG VISIBLE CHANGE */
+    border-left: 6px solid #4f46e5; 
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
